@@ -17,15 +17,19 @@
             <input type="text" id="box-main" placeholder="Adicionar um novo item">
             <button id="button">Adicionar item</button>
         </form>
-        <div class="item" id="item">
-            <input type="checkbox">
-            <p id="name-item">Pão de forma</p>
-            <img src="" alt="" class="ico-trash-can">
+            <div class="item" id="item">
+            <form action="" class="mini-space"><input type="checkbox" style="cursor: pointer;"></form>
+            <div class="space">
+                <p id="name-item" class="line-through">Pão de forma</p>
+                <img src="imagens/trash.png" alt="" class="ico-trash-can">
+            </div>
         </div>
-        <div class="hide alert">
-            <img src="" alt="" class="alert-ico">
-            <p>Item removido da lista</p>
-            <img src="" alt="" class="quit">
+        <div class=" alert hide ">
+            <img src="imagens/alert.png" alt="" class="ico-alert mini-space">
+            <div class="space">
+                <p>Item removido da lista</p>
+                <img src="imagens/close.png" alt="" class="close">
+            </div>
         </div>
     </div>
 </body>

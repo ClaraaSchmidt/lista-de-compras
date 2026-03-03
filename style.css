@@ -5,8 +5,9 @@ body{
     flex-direction: column;
     margin-top: 25px;
     margin-left: 369px;
-    margin-right: 370px;
+    margin-right: 394px;
     font-family: 'inter';
+    background-color: #D1D5DB;
 }
 
 .header{
@@ -42,6 +43,80 @@ h1{
     font-weight: 500;
     border: 0;
     margin-left: 16px;
-    ponte: ;
+    cursor: pointer;
+}
+
+.item{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #fff;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.item .ico-trash-can{
+    height: 20px;
+    padding: 5px; 
+    cursor: pointer;
+}
+.mini-space{
+    padding-right:10px;
+    padding-top:8.5px;
+    padding-bottom: 8.5px;
+
+}
+
+.alert{
+    background-color: #C93847;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    margin-top: 40px;
+    color: #fff;
+}
+.alert .ico-alert{
+    height: 20px;
+}
+.alert .close {
+    height: 20px;
+    align-self: center;
+    padding: 5px;
+}
+
+/* hover's */
+.item .ico-trash-can:hover{
+    background-color: #D1D5DB;
+    border-radius:20px ;
+    padding: 5px;
     
+}
+.alert .close:hover{
+    background-color: #0000001b;
+    opacity: 50%;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.shopping form button:hover{
+    background-color: #A52C6B;
+}
+/* Variantes */
+.line-through{
+    text-decoration: line-through;
+    color: #D1D5DB;
+    
+}
+.hide{
+    display: none;
 }
